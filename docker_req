@@ -1,0 +1,7 @@
+sudo docker build .  =====>>> return token
+sudo docker run -p 80:80 {token}
+localhost
+sudo docker image tag {token} {genintel/webapp_amz:latest}===>repo name
+sudo docker push {genintel/webapp_amz:latest}=====>repo name
+
+
